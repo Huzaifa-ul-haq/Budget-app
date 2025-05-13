@@ -11,7 +11,7 @@ export default function Home() {
   <img src={pic} alt="Background" className="absolute w-full h-full object-cover " />
 
   <div className="relative z-10 flex flex-col justify-center items-center h-full bg-black/50">
-    <h1 className="text-6xl ps-15 font-bold text-gray-50">
+    <h1 className="text-6xl ms-12 font-bold text-gray-50">
       Welcome To BudgetApp
     </h1>
     <div>
