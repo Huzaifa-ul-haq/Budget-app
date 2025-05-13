@@ -14,7 +14,7 @@ export function DrawerComponent() {
   return (
     <>
       <div className="flex min-h-[20vh] relative items-center justify-center">
-        <Button className="w-sm h-12 text-xl" color="gray" onClick={() => setIsOpen(true)}> Make budget</Button>
+        <Button className="w-auto h-12 text-lg" color="gray" onClick={() => setIsOpen(true)}> Make budget</Button>
       </div>
       <Drawer open={isOpen} onClose={handleClose} position="top" className="">
         <DrawerHeader title="Save your Budget" />
